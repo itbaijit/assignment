@@ -85,6 +85,7 @@ margin-bottom: 30px;
     background: rgb(13, 19, 33);
     padding: 21px 24px;
     color: white;
+    border: 1px solid black;
 }
 
 .banner-btn:hover{
@@ -94,6 +95,9 @@ margin-bottom: 30px;
     color: rgb(0, 0, 0);
 }
 
+.banner a {
+    text-decoration: none;
+}
 
 
 /* Section 2 Started */
@@ -433,7 +437,7 @@ letter-spacing: 0%;
 }
 
 
-/* footer section */
+/* footer */
 
 /* footer bg start */
 
