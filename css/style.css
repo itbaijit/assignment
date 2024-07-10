@@ -414,7 +414,7 @@ letter-spacing: 0%;
 .newsletter {
     width: 1140px;
     height: 313px;  
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
