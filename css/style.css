@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Nav style start */
 
 nav{
@@ -27,6 +32,8 @@ nav{
     padding: 17px 27px;
     border: solid black 1px;
     border-radius: 5px;
+    color: black;
+    text-decoration: none;
 }
 
 .main-btn:hover{
@@ -37,8 +44,10 @@ nav{
 .nav-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
 }
 
 
@@ -46,7 +55,7 @@ nav{
 /* Banner style start */
 
 .hero-bg{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     height: 652px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +82,7 @@ nav{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 12px;
-margin-bottom: 30px;
+margin: 10px 0 50px 0;
 }
 
 .hero-content{
@@ -176,6 +185,11 @@ letter-spacing: 0%;
     background-color: white;
     padding: 12px 20px;
     border: solid black 1px;
+}
+
+.info-btn:hover{
+    background-color: black;
+    color: white;
 }
 
 
@@ -434,6 +448,15 @@ letter-spacing: 0%;
     background-color: white;
     color: black;
     border-radius: 12px;
+}
+
+.newsletter-p{
+    color: rgba(241, 229, 229, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
 }
 
 
